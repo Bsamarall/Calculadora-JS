@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <h1>Faça seu cálculo LGTV</h1>
+    
+    <div class="container">
+
+        <div id="display">0</div>
+        
+        <div class="geral">
+            <div id="numeros">
+                <div><input type="button" value="1" onclick="anexdp('1')"></div>
+                <div><input type="button" value="2" onclick="anexdp('2')"></div>
+                <div><input type="button" value="3" onclick="anexdp('3')"></div>
+                <div><input type="button" value="4" onclick="anexdp('4')"></div>
+                <div><input type="button" value="5" onclick="anexdp('5')"></div>
+                <div><input type="button" value="6" onclick="anexdp('6')"></div>
+                <div><input type="button" value="7" onclick="anexdp('7')"></div>
+                <div><input type="button" value="8" onclick="anexdp('8')"></div>
+                <div><input type="button" value="9" onclick="anexdp('9')"></div>
+                <div><input type="button" value="DEL" id="del"></div> <!--Botão de deletar-->
+                <div><input type="button" value="0" onclick="anexdp('0')"></div>
+                <div><input type="button" value="=" id="igual"></div> <!--Botão de igual--> 
+            </div>
+
+            <div class="operacoes">
+                <div><input type="button" value="+" ></div>
+                <div><input type="button" value="-"></div>
+                <div><input type="button" value="*"></div>
+                <div><input type="button" value="/"></div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+    <script src="script.js"></script>
+</html>
